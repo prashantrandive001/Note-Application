@@ -35,17 +35,17 @@ public class NoteController {
 	@RequestMapping("/")
 	public String index() {
 
-		return "home.html";
+		return "index.html";
 	}
 
 	@RequestMapping("/index")
 	public String index1() {
-		return "home.html";
+		return "index.html";
 	}
 
 	@RequestMapping("/home")
 	public String home() {
-		return "home.html";
+		return "index.html";
 	}
 
 	@RequestMapping("/addnote")
